@@ -9,7 +9,6 @@ call vundle#begin()
 ""call vundle#begin('~/some/path/here')
 
 Plugin 'gmarik/Vundle.vim'
-
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -34,6 +33,7 @@ set smartcase                   " ... unless they contain at least one capital l
 syntax on
 filetype plugin indent on
 nmap ø $
+nmap < ^
 ""colorscheme kolor
 set guifont=Consolas:h12
 set nu
